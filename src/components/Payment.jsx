@@ -12,7 +12,7 @@ const Payment = ({ token }) => {
         key: import.meta.env.RAZORPAY_KEY,
         amount: amount,
         currency: currency,
-        name: "Your Company Name",
+        name: "Razorpay",
         description: "Test Transaction",
         image: "https://random.image/random_logo",
         order_id: _id, 

@@ -3,7 +3,7 @@ const createOrder = async () => {
       setTimeout(() => {
         resolve({
           _id: "order_123456",
-          amount: 50000, 
+          amount: 2000, 
           currency: "INR",
           token: "token_123456",
         });
