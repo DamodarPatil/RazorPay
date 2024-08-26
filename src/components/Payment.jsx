@@ -14,7 +14,7 @@ const Payment = ({ token }) => {
         currency: currency,
         name: "Your Company Name",
         description: "Test Transaction",
-        image: "https://example.com/your_logo",
+        image: "https://random.image/random_logo",
         order_id: _id, 
         handler: async function (response) {
          
@@ -32,12 +32,12 @@ const Payment = ({ token }) => {
           }
         },
         prefill: {
-          name: "Your Name",
-          email: "youremail@example.com",
-          contact: "9999999999",
+          name: "Damodar Patil",
+          email: "damodar@gmail.com",
+          contact: "9484627793",
         },
         notes: {
-          address: "Some Address",
+          address: "Ahmedabad",
         },
         theme: {
           color: "#3399cc",
